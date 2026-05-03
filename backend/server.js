@@ -10,6 +10,7 @@ const authRoutes = require('./routes/auth');
 const stockRoutes = require('./routes/stocks');
 
 const app = express();
+
 app.use(cors());
 app.use(express.json());
 
